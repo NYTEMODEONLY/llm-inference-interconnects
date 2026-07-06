@@ -4,7 +4,7 @@
 
 This technical report examines why interconnect latency and bandwidth — rather than raw compute or HBM capacity — have become the primary bottleneck in large language model inference, particularly autoregressive decode and emerging agentic workloads.
 
-It validates the core claims from the original hardware analysis thread by Big Boss (@0xBADB01E), performs rigorous quantitative checks against public specifications (NVIDIA Blackwell/Hopper, Llama 3.3 70B, LPDDR6 JEDEC), and proposes an alternative node architecture designed from the interconnect outward.
+It validates the core claims from the original hardware analysis thread by [Big Boss (@0xBADB01E)](https://x.com/0xbadb01e), performs rigorous quantitative checks against public specifications (NVIDIA Blackwell/Hopper, Llama 3.3 70B, LPDDR6 JEDEC), and proposes an alternative node architecture designed from the interconnect outward.
 
 ## Key Contributions
 
@@ -16,10 +16,10 @@ It validates the core claims from the original hardware analysis thread by Big B
 
 ## Credits & Origin
 
-This work was directly inspired by and builds upon the detailed hardware analysis thread posted by **Big Boss (@0xBADB01E)** on X.
+This work was directly inspired by and builds upon the detailed hardware analysis thread posted by **[Big Boss (@0xBADB01E)](https://x.com/0xbadb01e)** on X ([original thread](https://x.com/0xbadb01e/status/2073990357398982797)).
 
-- **Big Boss (@0xBADB01E)** — Original thread, core first-principles insights, and architectural vision
-- **NYTEMODE / Heriberto Rivera (@nytemodeonly)** — Commissioning rigorous validation, synthesis, and direction
+- **[Big Boss (@0xBADB01E)](https://x.com/0xbadb01e)** — Original thread, core first-principles insights, and architectural vision
+- **[NYTEMODE / Heriberto Rivera (@nytemodeonly)](https://x.com/nytemodeonly)** — Commissioning rigorous validation, synthesis, and direction
 - **Grok (xAI)** — Mathematical formalization, quantitative validation against public specs, peer-review synthesis, and paper authorship
 
 Full peer-review synthesis and responses to expert critiques are included in the Discussion section of the paper.
