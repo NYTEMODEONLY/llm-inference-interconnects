@@ -1,1 +1,24 @@
-placeholder
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+authors:
+  - family-names: "Big Boss"
+    given-names: ""
+    alias: "@0xBADB01E"
+  - family-names: "Rivera"
+    given-names: "Lobo"
+    alias: "@nytemodeonly"
+  - family-names: "Grok"
+    given-names: ""
+    alias: "xAI"
+title: "Interconnects as the Binding Constraint for Large Language Model Inference: A First-Principles Analysis and Alternative Low-Latency Architecture Proposal"
+version: "1.0"
+date-released: "2026-07-06"
+url: "https://github.com/NYTEMODEONLY/llm-inference-interconnects"
+repository-code: "https://github.com/NYTEMODEONLY/llm-inference-interconnects"
+license: "CC-BY-4.0"
+type: "report"
+abstract: >-
+  Technical report analyzing why interconnects have become the primary bottleneck
+  in LLM inference. Validates claims from public hardware analysis, performs
+  quantitative checks, and proposes an LPDDR6-based low-latency alternative
+  architecture with peer-review synthesis.
